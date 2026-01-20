@@ -85,12 +85,9 @@ body {
 
 .hero img {
   width: 240px;
-  height: 240px;
-  object-fit: none;      /* IMPORTANT */
-  object-position: center;
-  background: #ffffff;
+  height: auto;          /* 🔑 THIS */
+  object-fit: contain;
   border-radius: 50%;
-  border: 4px solid #ffffff;
 }
 
 
