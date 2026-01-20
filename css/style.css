@@ -86,7 +86,7 @@ body {
 .hero img {
   width: 240px;
   height: 240px;
-  object-fit: contain;      /* IMPORTANT */
+  object-fit: none;      /* IMPORTANT */
   object-position: center;
   background: #ffffff;
   border-radius: 50%;
