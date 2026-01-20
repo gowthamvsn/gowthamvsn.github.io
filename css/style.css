@@ -223,3 +223,34 @@ footer {
     display: none;
   }
 }
+
+
+/* ================= IMAGE GRIDS (FIXED) ================= */
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 16px;
+  margin-top: 16px;
+}
+
+.image-grid img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 10px;
+  display: block;
+}
+
+/* Placeholder boxes (when image not uploaded yet) */
+.image-placeholder {
+  width: 100%;
+  height: 180px;
+  border-radius: 10px;
+  background: linear-gradient(135deg, #e5e7eb, #f1f5f9);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #64748b;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
