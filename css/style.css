@@ -94,7 +94,7 @@ body {
 .hero-links a {
   display: inline-block;
   padding: 12px 28px;      /* vertical + horizontal padding */
-  background-color: #2563eb;   /* nice blue color */
+  background-color: #1d4ed8;   /* nice blue color */
   color: white !important;     /* <--- WHITE TEXT - this is the most important line */
   font-weight: 600;
   font-size: 1rem;
