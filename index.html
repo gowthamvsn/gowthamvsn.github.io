@@ -2,51 +2,143 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Gowtham V | Principal Data Scientist & GenAI Engineer</title>
-
-    <!-- Styles -->
-    <link rel="stylesheet" href="css/style.css" />
-
-    <!-- Fonts (enterprise-safe) -->
+    <link rel="stylesheet" href="css/style.css"/>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
-    <!-- =========================
-         HERO / INTRO SECTION
-    ========================== -->
-    <header class="hero">
-        <div class="hero-container">
-
-            <!-- Left: Text -->
-            <div class="hero-text">
-                <h1>Gowtham V</h1>
-                <h2>Principal Data Scientist & GenAI Engineer</h2>
-
-                <p class="hero-subtitle">
-                    11+ years building enterprise-scale data platforms, AI systems, 
-                    and cloud-native solutions across healthcare, finance, and big tech.
-                </p>
-
-                <div class="hero-links">
-                    <a href="www.linkedin.com/in/gowtham-vuppaladhadiam-bb54bb111" target="_blank">LinkedIn</a>
-                    <a href="https://github.com/gowthamvsn" target="_blank">GitHub</a>
-                    <a href="#projects">Projects</a>
-                    <a href="#experience">Experience</a>
-                    <a href="#contact">Contact</a>
-                </div>
-            </div>
-
-            <!-- Right: Image -->
-            <div class="hero-image">
-                <!-- Replace profile.jpg with any image you want -->
-                <img src="assets/GowthamPic.jpg" alt="Gowtham V profile photo" />
-            </div>
-
+<!-- ================= NAV ================= -->
+<nav class="nav">
+    <div class="nav-container">
+        <span class="nav-name">Gowtham V</span>
+        <div class="nav-links">
+            <a href="#experience">Experience</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#teaching">Teaching</a>
+            <a href="#contact">Contact</a>
         </div>
-    </header>
+    </div>
+</nav>
+
+<!-- ================= HERO ================= -->
+<header class="hero">
+    <div class="hero-container">
+        <div>
+            <h1>Principal Data Scientist & GenAI Engineer</h1>
+            <p class="hero-desc">
+                11+ years designing enterprise-scale data platforms, GenAI systems,
+                and cloud-native solutions across healthcare, finance, and big tech.
+            </p>
+            <div class="hero-links">
+                <a href="https://github.com/gowthamvsn" target="_blank">GitHub</a>
+                <a href="www.linkedin.com/in/gowtham-vuppaladhadiam-bb54bb111" target="_blank">LinkedIn</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </div>
+        <img src="assets/GowthamPic.jpg" alt="Profile photo">
+    </div>
+</header>
+
+<!-- ================= EXPERIENCE ================= -->
+<section id="experience">
+    <h2>Experience</h2>
+
+    <div class="card">
+        <h3>Bosch Global Software (2021–2024)</h3>
+        <p class="role">Team Lead – Data Science & Databases</p>
+        <ul>
+            <li>Led an LLM-driven Cloud Cost Optimization System reducing spend by ~16%.</li>
+            <li>Built NLP-based ServiceNow routing system with 92% accuracy.</li>
+            <li>Managed MongoDB, PostgreSQL, MySQL, MSSQL, Redis at enterprise scale.</li>
+            <li>Mentored a 5-member team; worked across DevOps, Cloud, and Sales.</li>
+            <li>Executed on-site customer migrations and Atlas-based NoSQL transitions.</li>
+        </ul>
+    </div>
+
+    <div class="card">
+        <h3>Cognizant (2016–2021)</h3>
+        <p class="role">Technical Lead – Capital One</p>
+        <ul>
+            <li>Automated cloud server rehydration (120 min → 90 sec).</li>
+            <li>Introduced MongoDB & Python into banking workflows.</li>
+            <li>Managed HA Oracle, MSSQL, MongoDB systems on AWS.</li>
+        </ul>
+    </div>
+
+    <div class="card">
+        <h3>Wipro (2013–2016)</h3>
+        <p class="role">Oracle Database Administrator – Citi</p>
+        <ul>
+            <li>Managed 800+ Oracle RAC & Non-RAC databases.</li>
+            <li>Handled upgrades, Data Guard, recovery, and performance tuning.</li>
+        </ul>
+    </div>
+</section>
+
+<!-- ================= SKILLS ================= -->
+<section id="skills">
+    <h2>Core Expertise</h2>
+    <div class="grid">
+        <div class="skill">GenAI & LLMs (OpenAI, Gemini)</div>
+        <div class="skill">Cloud: Azure, AWS, GCP</div>
+        <div class="skill">Databases: MongoDB, PostgreSQL, Oracle</div>
+        <div class="skill">MLOps & Automation</div>
+        <div class="skill">Healthcare & Enterprise AI</div>
+        <div class="skill">Leadership & Mentoring</div>
+    </div>
+</section>
+
+<!-- ================= PROJECTS ================= -->
+<section id="projects">
+    <h2>Flagship Projects</h2>
+
+    <div class="card">
+        <h3>Clinical Assistant AI</h3>
+        <p>RAG-based healthcare assistant using MIMIC-IV, Gemini, Azure OpenAI.</p>
+        <a href="https://github.com/gowthamvsn/Clinical_Assistant_Chatbot_Project" target="_blank">GitHub →</a>
+    </div>
+
+    <div class="card">
+        <h3>Mental Health Wellness Chatbot</h3>
+        <p>Responsible AI chatbot focused on mental wellness, not diagnosis.</p>
+        <a href="https://github.com/gowthamvsn/Mental_Health_Wellness_Chatbot" target="_blank">GitHub →</a>
+    </div>
+
+    <div class="card">
+        <h3>AI Tutor Platform</h3>
+        <p>Interactive AI-driven learning assistant with live demos.</p>
+        <a href="https://gowthamvsn.github.io/ai-tutor-landing-page/" target="_blank">Live Demo →</a>
+    </div>
+</section>
+
+<!-- ================= TEACHING ================= -->
+<section id="teaching">
+    <h2>Teaching & Thought Leadership</h2>
+    <ul>
+        <li>LinkedIn technical explainer videos on AI & cloud systems</li>
+        <li>Hackathon mentor & winner</li>
+        <li>Mentored junior engineers and startups</li>
+    </ul>
+</section>
+
+<!-- ================= CONTACT ================= -->
+<section id="contact">
+    <h2>Contact</h2>
+    <p>Email: <strong>your.email@example.com</strong></p>
+    <p>
+        <a href="https://github.com/gowthamvsn">GitHub</a> |
+        <a href="https://linkedin.com">LinkedIn</a>
+    </p>
+</section>
+
+<footer>
+    © 2026 Gowtham V. All rights reserved.
+</footer>
 
 </body>
 </html>
