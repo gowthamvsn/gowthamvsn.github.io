@@ -293,3 +293,8 @@ footer {
     text-align: center;
   }
 }
+
+.hero-links a {
+    background-color: #2563eb !important;
+    color: white !important;
+}
