@@ -7,7 +7,6 @@
     <link rel="stylesheet" href="css/style.css"/>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
-
 <body>
 
 <!-- ================= NAV ================= -->
@@ -26,12 +25,12 @@
     </div>
 </nav>
 
-<!-- ================= HERO ================= -->
-<header class="hero">
-    <div class="hero-container">
+<!-- ================= HERO (UPDATED) ================= -->
+<header class="hero" style="background: #f1f5f9; color: #0f172a; padding: 50px 24px;">
+    <div class="hero-container" style="grid-template-columns: 1fr 0.9fr; gap: 50px;">
         <div class="hero-text">
-            <h1>Principal Data Scientist & GenAI Engineer</h1>
-            <p class="hero-desc">
+            <h1 style="color: #0f172a;">Principal Data Scientist & GenAI Engineer</h1>
+            <p class="hero-desc" style="color: #334155;">
                 11+ years designing enterprise-scale data platforms, GenAI systems,
                 and cloud-native solutions across healthcare, finance, and big tech.
             </p>
@@ -41,16 +40,19 @@
                 <a href="#projects">Projects</a>
                 <a href="#contact">Contact</a>
             </div>
-  <img src="assets/GowthamPic.jpg" alt="Gowtham V">
-</div>
+        </div>
 
+        <!-- Image moved to RIGHT -->
+        <div style="text-align: center;">
+            <img src="assets/GowthamPic.jpg" alt="Gowtham V" 
+                 style="width: 260px; height: auto; object-fit: cover; border-radius: 50%; border: 6px solid #e2e8f0; box-shadow: 0 10px 30px rgba(0,0,0,0.12);">
+        </div>
     </div>
 </header>
 
 <!-- ================= EXPERIENCE ================= -->
 <section id="experience" class="section alt">
     <h2>Experience</h2>
-
     <div class="card">
         <h3>Bosch Global Software (2021–2024)</h3>
         <p class="role">Team Lead – Data Science & Databases</p>
@@ -60,16 +62,6 @@
             <li>Owned enterprise MongoDB, PostgreSQL, MySQL, MSSQL, Redis platforms.</li>
             <li>Led and mentored a 5-member engineering team.</li>
             <li>Executed on-site customer migrations and RDBMS → NoSQL transformations.</li>
-        </ul>
-    </div>
-
-    <div class="card">
-        <h3>Cognizant (2016–2021)</h3>
-        <p class="role">Technical Lead – Capital One</p>
-        <ul>
-            <li>Automated cloud Linux server rehydration (120 minutes → 90 seconds).</li>
-            <li>Introduced MongoDB & Python into banking production workflows.</li>
-            <li>Managed HA Oracle, MSSQL, MongoDB systems on AWS.</li>
         </ul>
     </div>
 
