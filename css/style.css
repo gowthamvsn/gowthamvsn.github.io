@@ -86,13 +86,13 @@ body {
 .hero-links {
   display: flex;
   flex-wrap: wrap;
-  gap: 14px;
-  margin-top: 20px;
+  gap: 10px;
+  margin-top: 15px;
 }
 
 .hero-links a {
   display: inline-block;
-  padding: 12px 26px;
+  padding: 12px 20px;
   background-color: #0d9488;
   color: black !important;           /* ← WHITE TEXT */
   font-weight: 600;
