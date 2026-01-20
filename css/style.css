@@ -778,11 +778,11 @@ body {
 .hero-links a {
   display: inline-block;
   padding: 12px 26px;
-  background-color: #0d9488;
-  color: white !important;           /* ← WHITE TEXT */
+  background-color: #2563eb;
+  color: black !important;           /* ← WHITE TEXT */
   font-weight: 600;
   text-decoration: none;
-  border-radius: 8px;
+  border-radius: 10px;
   transition: all 0.3s ease;
   box-shadow: 0 4px 12px rgba(13, 148, 136, 0.22);
 }
