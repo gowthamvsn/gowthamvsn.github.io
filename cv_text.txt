@@ -1,0 +1,78 @@
+Gowtham Vuppaladhadiam
+Denton, TX  |  mastergowtham1906@gmail.com  |  (940) 629-5615  |  LinkedIn  |  GitHub  |  Profile
+Professional Summary
+Senior Data Scientist with 10+ years of combined experience spanning data engineering, cloud platforms, and production machine learning systems. Proven track record of delivering data-driven solutions that improved team efficiency by 16% and increased annual revenue margins by 8%. Experienced in building and deploying intelligent AI systems, including GenAI applications, predictive models, and NLP pipelines. Strong expertise in Python, SQL, LLMs, and deep learning, with a collaborative, impact-driven approach to solving complex business problems at scale.
+Project Experience
+FinSight - Multi-Agent Wealth Management Platform  (github/finsight_wip)
+Built a production-grade multi-agent wealth management platform using 3 LLMs, 7 AI agents, and a Random Forest model achieving 87% prediction accuracy across 800+ tickers, with real-time portfolio sync at under 1-second frontend latency; deployed on Azure Kubernetes Service with CI/CD.
+Designed a 3-agent debate architecture (Portfolio, Market, and Critic agents) for conflict-arbitrated investment recommendations, with Isolation Forest fraud detection and OTP-gated transaction security.
+NaviDoc - Multimodal RAG Clinical AI System  (github/Navidoc-clinical-ai-assistant-backend)
+Built a safety-first multimodal clinical AI backend combining medical image analysis and RAG-based retrieval, achieving 35% ROUGE/BLEU on clinical document Q&A; stack: FastAPI, PyTorch, PostgreSQL, MongoDB.
+Presented at Texas Health Informatics Alliance Conference (2025) and Texas Medical Center (2026).
+QuitBuddy - AI-Powered Smoking Cessation App (with Johns Hopkins)  (github/quitbuddy)
+Built a smoking cessation platform for teens with substance abuse disorder in collaboration with a Johns Hopkins faculty member, featuring a live AI avatar (Azure avatar streaming) and Azure Speech recognition; achieved 80%+ faithfulness score validated by external LLM evaluation.
+Tech: React, TypeScript, Supabase, MongoDB, Azure Speech, Azure avatar streaming, real-time video/audio, LLMs
+Mental Health Wellness Chatbot  (github/Mental_Health_Wellness_Chatbot)
+Built a multimodal mental health chatbot with real-time voice interaction and crisis detection that triggers automated email alerts on severe language, adapts empathetically to the user's emotional state, and maintains strict domain boundaries regardless of prompt injection; powered by Google Gemini 2.0 Flash.
+Tech: Python, FastAPI, React, TypeScript, Google Gemini 2.0, voice AI, crisis NLP
+Pneumonia Detection - CNN & Explainable AI  (github/CNN-chest-xray-pneumonia-classification)
+Developed a binary pneumonia classifier from chest X-rays using MobileNetV2 transfer learning, achieving 95% AUC with Grad-CAM and SHAP for clinical-grade model interpretability.
+Tech: Python, TensorFlow, Keras, MobileNetV2, transfer learning, Grad-CAM, SHAP, medical imaging
+Hospital Readmission Prediction  (github/Readmission-using-ML)
+Built an ML pipeline predicting 30-day readmission risk for diabetic patients; XGBoost achieved best ROC-AUC across evaluated models.
+Tech: Python, XGBoost, scikit-learn, healthcare data, classification
+Work Experience
+Robert Bosch GmbH, Data Scientist
+Bengaluru, India (Feb 2021 – Dec 2024)
+Led development of a GenAI-based workflow automation system using LLMs, reducing manual project coordination and improving team efficiency by 16%.
+Engineered an Azure-based ETL pipeline for the database team - automating extract, load, query, and deployment workflows - reducing query turnaround time from 6 minutes to 1.8 seconds and eliminating manual processing.
+Partnered with business stakeholders to analyze sales data and develop classification and clustering models, directly driving an 8% increase in annual revenue margins.
+Maintained 99.999% availability across MongoDB, PostgreSQL, MySQL, MSSQL, and Redis for 70 enterprise clients on a mobility cloud platform, managing databases up to 5 TB and automating storage housekeeping to eliminate recurring disk-space incidents.
+Recovered a ransomware-locked MongoDB instance by mounting it locally and performing a full backup and restore, preserving a production client's complete dataset with zero data loss.
+University of North Texas, Graduate Research Assistant
+Denton, TX (Aug 2025 – Present)
+Conducting applied research under the Health Informatics Program Director on LLM hallucination mitigation for healthcare - using RAG to ground model responses against scientific literature, achieving 20-second end-to-end retrieval from complex medical documents.
+Benchmarking retrieval and prompt engineering strategies to improve factual consistency and interpretability of clinical LLM outputs against curated medical Q&A datasets.
+University of North Texas, Research Assistant – ONR PERFECT Project
+Denton, TX (2025 – Present)
+Contributed to AI-assisted cybersecurity education research under the ONR-funded PERFECT Project through curriculum development, survey analysis, and evaluation of high school STEM training modules.
+Co-authored 'Student Perceptions of AI-Assisted Cybersecurity Education in High School,' currently submitted for peer review.
+Cognizant Technology Solutions, Database Administrator
+Client: CapitalOne
+Chennai, India (Mar 2016 – Feb 2021)
+Resolved a MongoDB split-brain incident on a 6-node replica set within 30 minutes by safely evicting the stuck secondary and resynchronizing it - maintaining zero business impact as the primary remained available throughout.
+Built Python and shell monitoring scripts covering 120 servers (prod, dev, QA), detecting and flagging infrastructure anomalies in 35 seconds, replacing a fully manual review process.
+Earned AWS SysOps Administrator certification and applied cloud infrastructure expertise to support high-availability database deployments for CapitalOne.
+Wipro Technologies, Oracle Database Administrator
+Client: CITI
+Chennai, India (Jul 2013 – Feb 2016)
+Administered 800+ Oracle databases across CITI's US and Mexico operations (prod, UAT, QA, dev, test), maintaining 99.99% uptime SLA under a 24×7 on-call model for mission-critical banking workloads.
+Resolved high-severity production incidents for one of the world's largest banks with strict SLA compliance, developing expertise in Oracle performance tuning, replication management, and disaster recovery.
+Technical Skills
+Languages & Data: Python, SQL, NumPy, Pandas
+ML & AI Frameworks: scikit-learn, PyTorch, TensorFlow, Keras, XGBoost, LightGBM, BERT, HuggingFace Transformers, CNNs, LSTMs, Transformers
+Generative AI & NLP: Large Language Models (LLMs), Retrieval-Augmented Generation (RAG), Prompt Engineering, LLM Evaluation, NLP Pipelines
+Cloud & MLOps: Azure, Azure ML, AWS, Databricks, Apache Spark, Docker, Kubernetes, Airflow, Git, CI/CD, Model Deployment
+Databases: MongoDB, PostgreSQL, MySQL, Redis
+Visualization: Power BI, Tableau, Streamlit, Gradio
+Certifications
+Certification in Advanced Data Science & AI from Intellipaat & IIT Madras (Feb 2024)
+Microsoft Certified: Azure AI Fundamentals (Dec 2023)
+Achievements
+Received Second prize in the UNT’s entrepreneurial event 2026
+Texas Medical Center (Feb 2026): Presented CareLens, an AI-powered clinical assistant, to clinicians and healthcare researchers
+UNT – Golden Eagle Award: Founded a student organization from a 3-member team to 100+ members; received Golden Eagle Award for Best New Student Organization of the Year
+UNT GSC: HackWell Hackathon, 3rd Prize (Oct 2025)
+AWS: US Tech Alliance West Preliminary Jam, Runners Up (March 2025)
+Publications & Posters
+Conference Poster Presentation NaviDoc: A Multimodal RAG-Based Clinical Chatbot for Contextual EHR Analysis. Texas Health Informatics Alliance Conference, 2025 and Texas Medical Center, 2026.
+Journal Article (Under Review) Integrating AI into Healthcare Cybersecurity: A Survey of Current Practices and Future Potential. Cybersecurity.
+Journal Article (Under Review) Student Perceptions of AI-Assisted Cybersecurity Education in High School. Submitted for peer review.
+Education
+University of North Texas, Denton, TX
+M.S. in Data Science (Expected Aug 2026)
+GPA: 4.0 / 4.0
+Relevant Coursework: Machine Learning, Deep Learning, Large Language Models
+SRM University, Chennai, India
+B.Tech. in Electronics and Communication Engineering (May 2013)
+GPA: 3.85 / 4.0
